@@ -49,7 +49,8 @@ export default function App() {
     function holdDice(id) {
         setDice(oldDice => oldDice.map(die => {
             return die.id === id ? 
-                {...die, isHeld: !die.isHeld} :
+            // getting erro at build, doens't support spread operater
+                {id: die.id, value: die.value, isHeld: !die.isHeld} :
                 die
         }))
     }
