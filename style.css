@@ -8,6 +8,7 @@ body {
     padding: 20px;
     font-family: 'Karla', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -76,4 +77,15 @@ main {
 
 .roll-dice:active {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > * {
+    color: #5035FF;
+    padding: 2em;
 }
