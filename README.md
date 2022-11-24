@@ -1,17 +1,6 @@
 # co82b48eab99c792f6b884857
 
-Quick start:
+will make it dice instead of numbers in the future.
+Got i game to build in the future and will call it gods draft,
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
 Happy Coding!
